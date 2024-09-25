@@ -4,6 +4,8 @@ go 1.22
 
 require (
 	cloud.google.com/go/pubsub v1.42.0
+	github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs v1.2.2
+	github.com/Azure/azure-sdk-for-go/sdk/storage/azblob v1.4.1
 	github.com/DATA-DOG/go-sqlmock v1.5.2
 	github.com/XSAM/otelsql v0.34.0
 	github.com/alicebob/miniredis/v2 v2.33.0
@@ -52,6 +54,9 @@ require (
 	cloud.google.com/go/compute/metadata v0.5.1 // indirect
 	cloud.google.com/go/iam v1.2.0 // indirect
 	filippo.io/edwards25519 v1.1.0 // indirect
+	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.14.0 // indirect
+	github.com/Azure/azure-sdk-for-go/sdk/internal v1.10.0 // indirect
+	github.com/Azure/go-amqp v1.0.5 // indirect
 	github.com/alicebob/gopher-json v0.0.0-20200520072559-a9ecdc9d1d3a // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cenkalti/backoff/v4 v4.3.0 // indirect
